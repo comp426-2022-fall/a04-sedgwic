@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "This assignment will help you stand up a web API using Express and the module that you produced for a03.",
   "main": "server.js",
+  "type": "module",
   "scripts": {
-    "test": "node server.js --port=5550",
-    "test2": "node server.js",
-    "test3": "node server.js --port=8000"
+    "test": "node server.js --port=5555",
+    "test2": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,5 @@
   "dependencies": {
     "express": "^4.18.2",
     "minimist": "^1.2.7"
-  },
-  "type": "module"
+  }
 }

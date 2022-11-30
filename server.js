@@ -1,4 +1,3 @@
-#!/usr/bin/env node
 
 // import roll
 import {roll} from "./lib/roll.js";
@@ -50,6 +49,4 @@ app.get('/app/*', (req, res) => {
 });
 
 // start her up
-app.listen(port, () => {
-  console.log('Server port ${port}\n');
-});
+app.listen(port);
